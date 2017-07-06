@@ -15,7 +15,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.php?page=about">About Us<span class="sr-only">(current)</span></a></li>
+                        <li><a href="about.php">About Us<span class="sr-only">(current)</span></a></li>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Team</a></li>

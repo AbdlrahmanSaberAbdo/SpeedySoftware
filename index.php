@@ -1,15 +1,10 @@
  <?php include('temp/header.php'); ?> 
-    <?php
-        $page ='';
-
-        $page = isset($_GET['page']) ? $_GET['page'] : 'home';
-
-        if($page == 'home') { ?>
-        <section class="cover">
-            <?php include('temp/main-cont.php'); ?>
-        </section>
+    <section class="cover">
+        <?php include('temp/main-cont.php'); ?>
+    </section>
+    <header id="header">
         <?php include('temp/navigate.php'); ?>
-    <body>
+    </header>
     <!-- ====================== Home Content ====================== -->
     <div class="container">
         
@@ -75,13 +70,4 @@
 
     </div><!-- end container-->
     <!-- ====================== End Home Content ====================== -->
-    <!-- Start About Us -->
-   <?php } ?>     
-    <?php if($page == "about") { ?>
-        <section class = "cover2">
-            <?php include('temp/main-cont.php'); ?>
-        </section>
-    <?php include('temp/navigate.php'); ?>
-    <?php } ?>
-        
 <?php include('temp/footer.php'); ?>
