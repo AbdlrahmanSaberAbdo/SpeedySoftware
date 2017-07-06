@@ -1,6 +1,6 @@
     <section class="footer text-center">
         <div class="container">
-            <h2> All Rights Reserved | spee<span>dy</span> so<span>ft</span>ware  © </h2>
+            <h4> All Rights Reserved | spee<span>dy</span> so<span>ft</span>ware  © </h4>
         </div>
     </section>
 
@@ -14,7 +14,7 @@
     <!-- ============= STick Plugin -->
     <script src = "lib/stickyjs/sticky.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src = js/main.js ></script>
+    <script src = js/main2.js ></script>
 </body>
 
 </html>
