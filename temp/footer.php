@@ -1,3 +1,10 @@
+    <section class="footer text-center">
+        <div class="container">
+            <h2> All Rights Reserved | spee<span>dy</span> so<span>ft</span>ware  © </h2>
+        </div>
+    </section>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

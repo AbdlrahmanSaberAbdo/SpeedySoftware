@@ -8,12 +8,15 @@ a {
 
 body {
     font-family: 'Raleway', sans-serif;
-    height: 2000px;
+ 
 
 }
 
 h1 {
     font-size: 60px;
+}
+span{
+    color: crimson;
 }
 
 
@@ -57,9 +60,7 @@ h1 {
 .cover h3 {
     margin: 45px 0 75px 0;
 }
-.cover h1 span{
-    color: crimson;
-}
+
 .cover h1 {
     margin-bottom: 4%;
 }
@@ -94,7 +95,6 @@ h1 {
     color: #fff;
 }
 #header span {
-    color: crimson !important;
     font-size: 19px;
 }
 #header img {
@@ -113,8 +113,9 @@ h1 {
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus
-
-{color: crimson}
+{
+    color: crimson
+}
 #header a i {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -142,4 +143,14 @@ h1 {
     transition: 1s ease-in-out;
     background: none !important;
   
+}
+
+/* ================== Start Footer ===================*/
+.footer{
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 10px;
+    background: #000;
 }
