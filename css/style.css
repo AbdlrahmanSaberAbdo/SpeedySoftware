@@ -59,6 +59,16 @@ span{
     font-size: 13px;
 }
 
+.crimson{
+    color: #DC143C;
+}
+
+.avatar{
+    border-radius: 100%;
+    border: 3px solid #DC143C;
+    width: 100px;
+    height: 100px;
+}
 
 /* ==================================================
   Cover Section Styling
