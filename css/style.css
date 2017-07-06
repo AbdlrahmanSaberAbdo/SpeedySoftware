@@ -1,15 +1,32 @@
 /* Global */
 
+::-moz-selection {
+    background-color: #1a1a1a;
+    color: #FFF
+}
+
+::selection {
+    background-color: #1a1a1a;
+    color: #FFF
+}
+
+body
+{
+    background-color: #FFFFFF;
+    font-family:  'Lato', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-size: 15px;
+}
+
+p{
+    text-align: justify;
+    color: #666;
+}
+
 a {
     -webkit-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
- 
-
 }
 
 h1 {
@@ -17,6 +34,29 @@ h1 {
 }
 span{
     color: crimson;
+}
+
+.f-icon{
+    font-size: 30px !important;
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    line-height: 55px !important;
+    border: 1px solid #333;
+    border-radius: 100%;
+}
+
+.title{
+    color: #FFFFFF;
+    background-color: #f33c;
+    text-transform: uppercase;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 13px;
 }
 
 
