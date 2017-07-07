@@ -52,6 +52,8 @@ span{
     text-transform: uppercase;
     display: block;
     margin: 40px auto;
+    margin: 50px auto;
+    margin-bottom: 20px;
     width: 200px;
     height: 50px;
     line-height: 50px;
@@ -59,6 +61,16 @@ span{
     font-size: 13px;
 }
 
+.crimson{
+    color: #DC143C;
+}
+
+.avatar{
+    border-radius: 100%;
+    border: 3px solid #DC143C;
+    width: 100px;
+    height: 100px;
+}
 
 /* ==================================================
   Cover Section Styling
@@ -236,28 +248,6 @@ span{
 /* ================== Start Footer ===================*/
 
 /* ====== start Section Form ========== */
-.contact{
-    background: url('../images/contact.jpg');
-    padding: 40px 0;
-}
-.formm{
-    background: #000;
-}
-.formm h1{
-    color: crimson;
-    font-weight: bold;
-    letter-spacing: -2px;
-}
-.formm .btn{
-    background-color: crimson;
-    transition: 1s ease-in-out;
-}
-.formm .btn:hover,
-.formm .btn:focus
-{
-    background-color:#ad0b2a;
-    
-}
 .contact_form{
     max-width: 450px;
     margin:1em auto;
@@ -285,7 +275,6 @@ color: #999;
 .contact_form input{
     padding-left: 30px;
 }
-
 .contact_form .asterisk{
     color: red;
     font-size: 11px;
@@ -311,22 +300,17 @@ color: #999;
     display: none;
 }
 
- .fonts {margin-top: 120px;}
- .font i {
-    color: crimson;
-    float: left;
-    margin-right: 15px;
-    font-size: 30px;
-    padding: 10px;
-    opacity: 0.9
+.contact_form .font.fa{
+    color: #fff;
    
 }
- .font p{ color: #fff; font-size: 25px; padding: 10px; }
+.contact_form .font p{ color: #fff }
 
 .footer{
     top: 0;
     bottom: 0;
     color: #fff;
     padding: 20px 0;
+    margin-top: 10px;
     background: #000;
 }
