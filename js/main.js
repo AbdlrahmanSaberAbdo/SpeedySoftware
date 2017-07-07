@@ -1,7 +1,7 @@
 $(function() {  
     $("html").niceScroll({
         cursorwidth:"8px",
-        cursorcolor:"#FF5B5B",
+        cursorcolor:"#DC143C",
         cursorborder:'none',
         zindex:10
     });

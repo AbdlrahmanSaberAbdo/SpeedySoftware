@@ -1,7 +1,7 @@
   <header id="header" class="header">
     <div class="container">
       <div id="logo" class="pull-left">
-        <a class = "navbar-brand" href="index.php">Spee<span>dy </span>So<span>ft</span>Ware</a>>
+        <a class = "navbar-brand" href="index.php">Spee<span>dy </span>So<span>ft</span>Ware</a>
       </div>
         
       <nav id="nav-menu-container">
@@ -16,4 +16,4 @@
         <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
       </nav>
     </div>
-  </header><!-- #header -->f
+  </header><!-- #header -->
