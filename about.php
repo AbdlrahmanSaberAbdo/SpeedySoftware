@@ -19,7 +19,7 @@
             <div class="card card-block">
               <a href="#"><img alt="" class="team-img" src="images/avatars/abdlrahman.jpg">
               <div class="card-title-wrap">
-                <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
+                <span class="card-title">AbdlrahmanSaber</span> <span class="card-text">Art Director</span>
               </div>
 
               <div class="team-over">
