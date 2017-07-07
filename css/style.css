@@ -76,7 +76,7 @@ span{
 /*============================== Start About Us ============================= */
 /* ===================== Start Abou Us ==================== */
 .cover2 {
-    background: url('../images/head22.jpg');
+    background: url('../images/about.jpg');
     display: table;
     width: 100%;
     position: relative;
@@ -87,7 +87,7 @@ span{
 .cover2:before {
     content: '';
     position: absolute;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
     left: 0;
