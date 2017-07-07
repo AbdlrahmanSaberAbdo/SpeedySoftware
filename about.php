@@ -116,26 +116,31 @@
 		<div class="container">
 			<h2 class="text-center special-heading">Our <span>Skills</span></h2>
 			<div class="row">
-				<div class="col-md-5 col-sm-12 col-xs-12">
+				<div class="col-md-5 col-sm-12 col-xs-12 prog">
 					<div class="skill-prog">
 						<div class="progress">
 						  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-						    Html5 / Css3
+                              <p>Html5 / Css3</p>
 						  </div>
 						</div>
 						<div class="progress">
 						  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-						    Javascribt / jQuery
+                              <p>Javascribt / jQuery /Node js</p>
 						  </div>
 						</div>
 						<div class="progress">
 						  <div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-						    Php / Mysql
+                              <p>Php / Mysql</p>
 						  </div>
 						</div>
 						<div class="progress">
 						  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-						    Blogger / Wordpress
+                              <p>Blogger / Wordpress</p>
+						  </div>
+						</div>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                              <p>Laravel / Angular</p>
 						  </div>
 						</div>
 					</div>
@@ -144,7 +149,7 @@
 				<div class="col-md-6 col-sm-11 col-md-offset-1">
 					<div class="skill-info">
 						<h3>A brief Description</h3>
-						<p class="lead">Our Team is able to work on any project based on these Skills.We wish you work with <span>Professionals Inc.</span> We Will Transfer Idea To A Digital Dream And Make You Come True.You Can Choose any platform But We Sure that you trust our team Don't worry with your business with us We will take care of it and We won't disappoint you .</p>
+						<p class="lead">Our Team is able to work on any project based on these Skills.We wish you work with <span>SpeederSoftware</span> We Will Transfer Idea To A Digital Dream And Make You Come True.You Can Choose any platform But We Sure that you trust our team Don't worry with your business with us We will take care of it and We won't disappoint you .</p>
 					</div>
 					<button type="button" class="btn btn-block">Talk With A Professional</button>
 				</div>
