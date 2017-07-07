@@ -22,11 +22,19 @@ p{
     text-align: justify;
     color: #666;
 }
-
+.btn {
+        -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
 a {
     -webkit-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
 }
 
 h1 {
@@ -68,6 +76,7 @@ span{
 /* Start About Us */
 .team {
     padding: 40px 0;
+    text-decoration: none;
 }
 .team h2 {
   color: crimson;
@@ -167,7 +176,25 @@ span{
   color: #999;
 }
 /* Start Our Skills */
+.skills .progress{
+    padding: 0;
+}
+.skills .btn {
+    background-color: #000;
+    color:#fff;
+}
+.skills .btn:hover {
+    background-color: crimson;
+    
+}
 
+.skill-info p {
+    font-size: 20px;
+}
+.skills .skill-info{
+    padding: 0;
+    margin: 0;
+}
 /* ==================================================
   Cover Section Styling
 ================================================== */
@@ -344,6 +371,28 @@ span{
 /* ================== Start Footer ===================*/
 
 /* ====== start Section Form ========== */
+.contact{
+    background: url('../images/contact.jpg');
+    padding: 40px 0;
+}
+.formm{
+    background: #000;
+}
+.formm h1{
+    color: crimson;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.formm .btn{
+    background-color: crimson;
+    transition: 1s ease-in-out;
+}
+.formm .btn:hover,
+.formm .btn:focus
+{
+    background-color:#ad0b2a;
+    
+}
 .contact_form{
     max-width: 450px;
     margin:1em auto;
@@ -371,6 +420,7 @@ color: #999;
 .contact_form input{
     padding-left: 30px;
 }
+
 .contact_form .asterisk{
     color: red;
     font-size: 11px;
@@ -396,11 +446,17 @@ color: #999;
     display: none;
 }
 
-.contact_form .font.fa{
-    color: #fff;
+ .fonts {margin-top: 120px;}
+ .font i {
+    color: crimson;
+    float: left;
+    margin-right: 15px;
+    font-size: 30px;
+    padding: 10px;
+    opacity: 0.9
    
 }
-.contact_form .font p{ color: #fff }
+ .font p{ color: #fff; font-size: 25px; padding: 10px; }
 
 .footer{
     top: 0;

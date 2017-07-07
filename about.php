@@ -112,7 +112,7 @@
     <!-- ====================== End About Us Content ====================== -->
 
 	  <!--======================start Our-skills=====================-->
-	  <section class="skills wow swing" data-wow-duration="2s" data-wow-offset="530" id="about">
+	  <section class="skills">
 		<div class="container">
 			<h2 class="text-center special-heading">Our <span>Skills</span></h2>
 			<div class="row">

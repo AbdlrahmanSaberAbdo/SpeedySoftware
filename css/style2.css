@@ -22,11 +22,19 @@ p{
     text-align: justify;
     color: #666;
 }
-
+.btn {
+        -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
 a {
     -webkit-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
 }
 
 h1 {
@@ -52,6 +60,8 @@ span{
     text-transform: uppercase;
     display: block;
     margin: 40px auto;
+    margin: 50px auto;
+    margin-bottom: 20px;
     width: 200px;
     height: 50px;
     line-height: 50px;
@@ -59,7 +69,132 @@ span{
     font-size: 13px;
 }
 
+.crimson{
+    color: #DC143C;
+}
 
+/* Start About Us */
+.team {
+    padding: 40px 0;
+    text-decoration: none;
+}
+.team h2 {
+  color: crimson;
+  margin-bottom: 20px;
+}
+
+.team .col-sm-3 {
+  padding: 0;
+}
+
+.team .card > a {
+  display: block;
+}
+
+.team .card img {
+  width: 100%;
+  height:200px;
+}
+
+.team .card h4 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.team .card p {
+  font-size: 11px;
+  color: #fff;
+  opacity: .75;
+  margin: 0;
+  padding: 0 35px;
+}
+
+.team .card .social-nav {
+  margin-bottom: 45px;
+}
+
+.team .card .social-nav a {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 4px;
+}
+
+.team .card .social-nav a:hover {
+  opacity: .75;
+}
+
+.team .card:hover .team-over {
+  opacity: 1;
+  visibility: visible;
+}
+
+.team .card:hover .card-title-wrap {
+  background-color: crimson
+}
+
+.team .card:hover .card-title-wrap .card-title, .team .card:hover .card-title-wrap .card-text {
+  color: #fff;
+}
+
+.team .team-over {
+  padding-top: 45px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team .card-title-wrap {
+  padding: 15px 25px;
+  position: relative;
+  z-index: 9;
+  background-color: #fff;
+}
+
+.team .card-title-wrap .card-title, .team .card-title-wrap .card-text {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  display: block;
+  margin: 0;
+}
+
+.team .card-title-wrap .card-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.team .card-title-wrap .card-text {
+  font-size: 18px;
+  color: #999;
+}
+/* Start Our Skills */
+.skills .progress{
+    padding: 0;
+}
+.skills .btn {
+    background-color: #000;
+    color:#fff;
+}
+.skills .btn:hover {
+    background-color: crimson;
+    
+}
+
+.skill-info p {
+    font-size: 20px;
+}
+.skills .skill-info{
+    padding: 0;
+    margin: 0;
+}
 /* ==================================================
   Cover Section Styling
 ================================================== */
@@ -236,19 +371,44 @@ span{
 /* ================== Start Footer ===================*/
 
 /* ====== start Section Form ========== */
-.contact_form{
-	max-width: 450px;
-	margin:1em auto;
+.contact{
+    background: url('../images/contact.jpg');
+    padding: 40px 0;
 }
+.formm{
+    background: #000;
+}
+.formm h1{
+    color: crimson;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.formm .btn{
+    background-color: crimson;
+    transition: 1s ease-in-out;
+}
+.formm .btn:hover,
+.formm .btn:focus
+{
+    background-color:#ad0b2a;
+    
+}
+.contact_form{
+    max-width: 450px;
+    margin:1em auto;
+}
+
 .contact_form .form-group{
     margin-bottom: 0;
     position: relative;
+
 }
 
-.contact_form input:nth-of-type(4){margin-top:10px;}
+
+.contact_form input:nth-of-type(2){margin-top:10px;}
 
 .contact_form textarea {
-	height: 150px !important;
+    height: 150px ;
 }
 .contact_form  input:not([type='submit']) + i {
 position: relative;
@@ -258,8 +418,9 @@ left: 7px;
 color: #999;
 }
 .contact_form input{
-	padding-left: 30px;
+    padding-left: 30px;
 }
+
 .contact_form .asterisk{
     color: red;
     font-size: 11px;
@@ -277,10 +438,25 @@ color: #999;
     position: relative;
 }
 
-
-.alert1{
-    padding:5px 10px;
+.alert1,
+.alert2,
+.alert3
+{
+    padding: 6px 10px;
+    display: none;
 }
+
+ .fonts {margin-top: 120px;}
+ .font i {
+    color: crimson;
+    float: left;
+    margin-right: 15px;
+    font-size: 30px;
+    padding: 10px;
+    opacity: 0.9
+   
+}
+ .font p{ color: #fff; font-size: 25px; padding: 10px; }
 
 .footer{
     top: 0;
