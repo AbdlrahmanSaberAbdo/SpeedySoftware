@@ -17,7 +17,7 @@
     <!-- nicescroll Plugin -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.4/jquery.nicescroll.min.js"></script>
     <!-- custom js -->
-    <script src="js/main.js"></script>
+    <script src="js/main2.js"></script>
 </body>
 
 </html>

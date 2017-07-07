@@ -2,6 +2,7 @@
     <section class="cover">
         <?php include('temp/main-cont.php'); ?>
     </section>
+    <!-- ==================Start Navigate=================== -->
     <header id="header">
         <?php include('temp/navigate.php'); ?>
     </header>
