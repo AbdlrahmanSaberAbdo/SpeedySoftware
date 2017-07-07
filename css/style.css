@@ -72,6 +72,247 @@ span{
 .crimson{
     color: #DC143C;
 }
+/* ==================================================
+  Header Styling
+================================================== */
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+#header {
+    background-color: #000;
+    height: 70px;
+    border: none;
+    margin:0;
+    padding: 0;
+    border-radius: 0; 
+}
+
+#header .navbar-brand {
+    margin-top: 7px;
+    color: #fff;
+}
+#header span {
+    font-size: 19px;
+}
+#header a i {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 25px 7px;
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#header a i:hover {
+    opacity: 0.7;
+    color:crimson
+}
+
+
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+  min-width: 180px;
+    color: #f00;
+}
+
+/* Nav Menu Arrows */
+.sf-arrows .sf-with-ul {
+  padding-right: 30px;
+}
+
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105";
+}
+
+/* Nav Meu Container */
+#nav-menu-container {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #nav-menu-container,
+.social
+    {
+        display: none;
+   }
+}
+
+/* Nav Meu Styling */
+.nav-menu a {
+  padding: 22px 15px 18px 15px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  outline: none;
+}
+
+.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+  color: crimson;
+}
+
+.nav-menu ul {
+  margin: 4px 0 0 15px;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.nav-menu ul li {
+  background: #fff;
+  border-top: 1px solid #f4f4f4;
+}
+
+.nav-menu ul li:first-child {
+  border-top: 0;
+}
+.nav-menu ul ul {
+  margin: 0;
+}
+
+/* Mobile Nav Toggle */
+#mobile-nav-toggle {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  margin: 8px 10px 0 0;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+
+#mobile-nav-toggle i {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
+/* Mobile Nav Styling */
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.9);
+  left: -260px;
+  width: 260px;
+  overflow-y: auto;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#mobile-nav ul li {
+  position: relative;
+}
+
+#mobile-nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+}
+
+#mobile-nav ul li a:hover {
+  color: crimson;
+}
+
+#mobile-nav ul li li {
+  padding-left: 30px;
+}
+
+#mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+/* Mobile Nav body classes */
+body.mobile-nav-active {
+  overflow: hidden;
+}
+
+body.mobile-nav-active #mobile-nav {
+  left: 0;
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+  color: #fff;
+}
+
+/* =========================== Start Main Content =============================*/
+.content {
+    letter-spacing: 2px;
+}
+/* ========================= end main-content in button ===================== */
 
 /*============================== Start About Us ============================= */
 /* ===================== Start Abou Us ==================== */
@@ -314,80 +555,10 @@ span{
     color: #fff;
 }
 
-
-/* ==================================================
-  Header Styling
-================================================== */
-
-#header .navbar {
-    background-color: #000;
-    height: 70px;
-    border: none;
-    margin:0;
-    padding: 0;
-    border-radius: 0; 
-}
-
-#header .navbar-brand {
-    margin-top: 7px;
-    color: #fff;
-}
-#header span {
-    font-size: 19px;
-}
-#header img {
-    width: 70%;
-    padding: 15px 0;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #fff;
-    padding: 23px 15px;
-    font-weight: 300;
-    font-size: 15px;
-    outline: none;
-    text-decoration: none;
-    background: #000;
-}
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus
-{
-    color: crimson
-}
-#header a i {
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    padding: 25px 7px;
-    font-size: 23px;
-    color: #fff;
-    cursor: pointer;
-}
-
-#header a i:hover {
-    opacity: 0.7;
-    color:crimson
-}
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{
-    border-color: transparent;
-}
-.navbar-toggle{
-   border-color: transparent !important;
-}
-.navbar-toggle:hover,
-.navbar-toggle:focus
-
-{
-    transition: 1s ease-in-out;
-    background: none !important;
-  
-}
-
-
 /* ====== start Section Form ========== */
 .contact{
     background: url('../images/contact.jpg');
-    padding: 40px 0;
+    padding: 150px 0;
 }
 .formm{
     background: #000;
@@ -470,13 +641,99 @@ color: #999;
     opacity: 0.9
    
 }
- .font p{ color: #fff; font-size: 25px; padding: 10px; }
+ .font p{ color: #fff; 
+     font-size: 25px; 
+     padding: 10px; 
+}
 /* ================== Start Footer ===================*/
-.footer{
-    top: 0;
-    bottom: 0;
+.footer { 
+    background:#000;
+    padding-top:10px;
+}
+
+.footer .map { 
+    margin-bottom:30px;
+}
+.footer .map1 { 
+    border:none;
+}
+
+.footer .fir h3,
+.footer .sec h3,
+.footer .three h3
+{
     color: #fff;
-    padding: 20px 0;
-    margin-top: 10px;
-    background: #000;
+}
+.footer .fir h3 span,
+.footer .sec h3 span {
+    color: crimson;
+}
+.footer h3 i {
+    margin-right:5px;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+}
+.footer ul {
+    padding:10px;
+}
+.footer ul li { 
+    font-size:18px;margin-top:10px;
+}
+.footer .sec ul li { 
+    color: #fff;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+}
+.footer .map1 { 
+    width:100%;
+    float: left;
+}
+
+.footer .sec {
+    float: right;
+}
+.footer .sec ul li:hover { 
+    color: crimson;
+    cursor: pointer;
+}
+   
+.footer .ff li i {
+    float:left;
+    margin-right:10px;
+    text-align:center;
+}
+.footer .ff li a {
+    color:#fff;
+}
+.footer .ff li a:hover {
+    color:crimson;
+}
+.footer .sec .btn { 
+    background-color: crimson;
+    color: #fff;
+    border-color: crimson;
+    margin-top:40px;
+    width:100%;height:40px;
+    font-weight:bold;font-size:16px;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+}
+.footer .sec .btn:hover {
+    background-color: #ad0b2a;
+    border-color: #ad0b2a;
+}
+.footer .copy-right {
+    color: #fff;
+    padding-bottom:10px;
+}
+.footer .copy-right h3 {
+    font-size:16px;
+    font-weight:normal;
+    letter-spacing:1px;
 }
