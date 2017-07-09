@@ -72,6 +72,13 @@ span{
 .crimson{
     color: #DC143C;
 }
+
+.thumbnail{
+  border: none;
+  -webkit-box-shadow: 2px 3px 16px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 16px -7px rgba(0,0,0,0.75);
+  box-shadow: 2px 3px 16px -7px rgba(0,0,0,0.75); 
+}
 /* ==================================================
   Header Styling
 ================================================== */
