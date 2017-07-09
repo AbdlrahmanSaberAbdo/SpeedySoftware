@@ -26,7 +26,7 @@
 
         // If No Erros Send The Email [mail(To, Sybject, Message, Headers, Parameters) ] 
 
-        $myemail = 'abdlrahmansaber111@gmail.com';
+        $myemail = 'option364@gmail.com';
         $subject = 'Contact Form';
         $Headers = 'From: ' . $email . '<br>';
 
@@ -46,7 +46,7 @@
                 //$mail->isSMTP();
                 
                 //set login Detalis For Gmail Account
-                $mail->Username = $_POST['username'];
+                $mail->Username = "option364@gmail.com";
                 $name = $_POST['username'];
                 $email = $_POST['email'];
                 //set type of protection
@@ -62,10 +62,10 @@
                 $mail->Body = $_POST['message'];
             
                 //Who send an email
-                $mail->setFrom($name, $email);
+                $mail->setFrom($email, $name);
             
                 //set where we are sending an email
-                $to = 'abdlrahmansaber2@gmail.com';
+                $to = 'option364@gmail.com';
                 $mail->addAddress($to);
             
                 $mail->isHTML(false);
