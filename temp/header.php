@@ -6,7 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>speedy software | Home</title>
+    <?php 
+    $page = basename($_SERVER['SCRIPT_NAME'],'.php');
+    switch($page) 
+    {
+        case 'index':
+            $page = "Home";
+            break;
+
+        case 'about':
+            $page = "About us";
+            break;
+
+        case 'portfolio':
+            $page = "Portfolio";
+            break;
+
+        case 'contactUs':
+            $page = "Contact us";
+            break;
+        
+        default:
+            $page = "error";
+            break;
+    }
+     ?>
+    <title>speedy software | <?php echo $page; ?></title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,900,900i" rel="stylesheet">
