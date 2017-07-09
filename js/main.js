@@ -3,7 +3,7 @@ $(function() {
         cursorwidth:"8px",
         cursorcolor:"#DC143C",
         cursorborder:'none',
-        zindex:10
+        zindex:1000
     });
 }); 
 
