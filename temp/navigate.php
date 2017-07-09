@@ -8,7 +8,7 @@
         <ul class="nav-menu">
             <li><a href="index.php">Home</a></li>
           <li><a href="about.php">About Us</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="portfolio.php">Portfolio</a></li>
           <li><a href="contactUs.php">Contact Us</a></li>
       </nav><!-- #nav-menu-container -->
       
