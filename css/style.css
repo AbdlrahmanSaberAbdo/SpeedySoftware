@@ -50,8 +50,10 @@ span{
     height: 60px;
     width: 60px;
     line-height: 55px !important;
-    border: 1px solid #333;
+    border: 1px solid crimson;
     border-radius: 100%;
+    background-color: crimson;
+    color: #fff;
 }
 
 .title{
@@ -655,7 +657,8 @@ color: #999;
 /* ================== Start Footer ===================*/
 .footer { 
     background:#000;
-    padding-top:10px;
+    margin-top: 20px;
+    padding-top:20px;
 }
 
 .footer .map { 
