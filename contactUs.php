@@ -76,6 +76,21 @@
                    $success = '<div class = "alert alert-success">We Have Received Your Message</div>';
                 }
 
+                $to = "option364@gmail.com";
+                $subject = "My subject";
+                $txt = "Hello world!";
+                $headers = "From: webmaster@example.com" . "\r\n" .
+                "CC: somebodyelse@example.com";
+
+            $a = mail($to,$subject,$txt,$headers);
+
+            if($a)
+                $success = '<div class = "alert alert-success">yes yes yes</div>';
+            else
+                $success = '<div class = "alert alert-success">no no no</div>';
+
+
+
            /* 
             function sendMail($to, $from, $body, $fromName){
                 //create an instance of PHPMalier
